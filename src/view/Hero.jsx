@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="heros" className="relative w-full bg-sky-blue">
       <Header />
       <div className="container mx-auto relative  flex flex-col items-center justify-start z-20 pt-14">
-        <h1 className="text-stroke-xl text-yellow-10 text-[9rem] md:text-[22rem] font-bold leading-[8rem]  md:leading-[15rem]">
+        <h1 className="text-stroke-xl text-yellow-10 text-[8rem] md:text-[22rem] font-bold leading-[8rem]  md:leading-[15rem]">
           $TSUJI
         </h1>
         <img
