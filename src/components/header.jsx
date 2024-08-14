@@ -39,12 +39,12 @@ const Header = () => {
           </button>
         </div>
         <button onClick={handleMenu}>
-          <CgMenuRight size={40} className="text-yellow-10" />
+          <CgMenuRight size={40} className="text-yellow-10 md:hidden" />
         </button>
       </nav>
 
       {isOpen && (
-        <nav className="shadow-effect fixed top-0 left-0 bottom-0 w-9/12 bg-[#9bc1fa]  z-[999] py-5 flex flex-col items-center justify-start duration-300 transition-all">
+        <nav className="shadow-effect fixed top-0 left-0 bottom-0 w-9/12 bg-[#9bc1fa]  z-[999] py-5 md:hidden flex flex-col items-center justify-start duration-300 transition-all">
           <div className="flex items-center mb-20">
             <h1 className="text-stroke-sm text-yellow-10 text-7xl font-bold ">
               yorme
