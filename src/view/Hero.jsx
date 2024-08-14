@@ -11,13 +11,13 @@ const Hero = () => {
         </h1>
         <img
           src="/img/hero.png"
-          className="w-[35rem] md:w-[40rem] -mt-20 md:-mt-24 -translate-x-10 md:-translate-x-20"
+          className="w-[35rem] md:w-[40rem]  md:-mt-24 -translate-x-10 md:-translate-x-20"
           alt=""
         />
       </div>
       <img
         src="/img/cloud-footer-white.png"
-        className="relative w-full md:-mt-64 z-20 translate-y-5 md:translate-y-20"
+        className="relative w-full -mt-20 md:-mt-64 z-20 translate-y-5 md:translate-y-20"
         alt=""
       />
       <img
