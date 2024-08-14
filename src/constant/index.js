@@ -30,18 +30,18 @@ export const tokenomics = [
 export const socials = [
   {
     img: "/img/socials/twitter.png",
-    url: "https://x.com/cto_tsuji?t=mAmxTa4DqmKvYXB6wE_eng&s=09",
+    url: "#",
   },
   {
     img: "/img/socials/tele.png",
-    url: "https://t.me/TsutsujiERC20CTO",
+    url: "#",
   },
   {
     img: "/img/socials/dextool.png",
-    url: "https://www.dextools.io/app/en/ether/pair-explorer/0x229c4580cc43d18bae24bd541688983bcefe0377",
+    url: "#",
   },
   {
     img: "/img/socials/dexscreener.png",
-    url: "https://dexscreener.com/ethereum/0x229c4580cc43d18bae24bd541688983bcefe0377",
+    url: "#",
   },
 ];
