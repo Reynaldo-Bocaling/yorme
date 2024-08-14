@@ -11,7 +11,7 @@ const Hero = () => {
         </h1>
         <img
           src="/img/hero.png"
-          className="w-[35rem] md:w-[40rem] -mt-12 md:-mt-24 -translate-x-10 md:-translate-x-20"
+          className="w-[35rem] md:w-[40rem] -mt-20 md:-mt-24 -translate-x-10 md:-translate-x-20"
           alt=""
         />
       </div>

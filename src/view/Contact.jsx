@@ -18,7 +18,7 @@ const Contact = () => {
             alt=""
           />
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 relative z-30">
           <h1 className="title-section md:w-[32rem] text-5xl md:text-8xl text-center ">
             JOIN US
           </h1>

@@ -29,23 +29,19 @@ export const tokenomics = [
 ];
 export const socials = [
   {
-    img: "/img/socials/x.png",
-    url: "",
+    img: "/img/socials/twitter.png",
+    url: "https://x.com/cto_tsuji?t=mAmxTa4DqmKvYXB6wE_eng&s=09",
   },
   {
     img: "/img/socials/tele.png",
-    url: "",
+    url: "https://t.me/TsutsujiERC20CTO",
   },
   {
     img: "/img/socials/dextool.png",
-    url: "",
+    url: "https://www.dextools.io/app/en/ether/pair-explorer/0x229c4580cc43d18bae24bd541688983bcefe0377",
   },
   {
     img: "/img/socials/dexscreener.png",
-    url: "",
-  },
-  {
-    img: "/img/socials/pancakeswap.png",
-    url: "",
+    url: "https://dexscreener.com/ethereum/0x229c4580cc43d18bae24bd541688983bcefe0377",
   },
 ];
