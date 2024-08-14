@@ -5,19 +5,19 @@ const Hero = () => {
   return (
     <section id="heros" className="relative w-full bg-sky-blue">
       <Header />
-      <div className="container mx-auto relative  flex flex-col items-center justify-start z-20">
+      <div className="container mx-auto relative  flex flex-col items-center justify-start z-20 pt-14">
         <h1 className="text-stroke-xl text-yellow-10 text-[9rem] md:text-[22rem] font-bold leading-[8rem]  md:leading-[15rem]">
-          yorme
+          $TSUJI
         </h1>
         <img
           src="/img/hero.png"
-          className="w-[25rem] -mt-14 md:-mt-32"
+          className="w-[35rem] md:w-[40rem] -mt-12 md:-mt-24 -translate-x-10 md:-translate-x-20"
           alt=""
         />
       </div>
       <img
         src="/img/cloud-footer-white.png"
-        className="relative w-full -mt-24 z-20 translate-y-20"
+        className="relative w-full md:-mt-64 z-20 translate-y-5 md:translate-y-20"
         alt=""
       />
       <img

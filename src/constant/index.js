@@ -19,20 +19,12 @@ export const navlinks = [
 
 export const tokenomics = [
   {
-    name: "TAX",
-    value: "0/0",
-  },
-  {
-    name: "LIQUIDITY",
-    value: "BURNED",
-  },
-  {
-    name: "CONTRACT",
-    value: "RENOUNCED",
-  },
-  {
     name: "SUPPLY",
     value: "1,000,000,000,000",
+  },
+  {
+    name: "TAX",
+    value: "0%",
   },
 ];
 export const socials = [

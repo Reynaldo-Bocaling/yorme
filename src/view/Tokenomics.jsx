@@ -10,19 +10,19 @@ const Tokenomics = () => {
         <h1 className="title-section text-5xl md:text-8xl">TOKENOMICS</h1>
         <Lottie
           animationData={tokenomicsAnimation}
-          className="w-[20rem] md:w-[30rem] -mt-16"
+          className="w-[20rem] md:w-[30rem] -mt-28 -rotate-12"
         />
 
-        <ul className="flex flex-col md:flex-row items-center justify-center md:justify-around gap-7 md:gap-0 w-full">
+        <ul className="flex flex-col md:flex-row items-center justify-center gap-7 md:gap-40 w-full -mt-12">
           {tokenomics.map((item, index) => (
             <li
               key={index}
               className="flex flex-col items-center justify-center gap-3"
             >
-              <h1 className="text-stroke-md text-yellow-10 text-5xl md:text-6xl">
+              <h1 className="text-stroke-md text-yellow-10 text-5xl md:text-7xl">
                 {item.value}
               </h1>
-              <h1 className="text-stroke-md text-white text-4xl">
+              <h1 className="text-stroke-md text-white text-4xl md:text-5xl">
                 {item.name}
               </h1>
             </li>
@@ -30,10 +30,10 @@ const Tokenomics = () => {
         </ul>
 
         <div className="flex items-center gap-2 md:gap-5 mt-12">
-          <h1 className="shadow-effect text-sm md:text-xl text-yellow-10 tracking-wider bg-[#04205E] border-2 border-black rounded-lg py-2 px-9">
-            0x665DD8C8823FZ8DHBZ6789XA
+          <h1 className="shadow-effect text-sm md:text-xl text-yellow-10 tracking-wider bg-[#04205E] border-2 border-black rounded-lg py-2 px-4 md:px-9">
+            0x2e6a60492fb5b58f5b5d08c7cafc75e740e6dc8e
           </h1>
-          <h1 className="shadow-effect text-base md:text-2xl text-yellow-10 tracking-wider bg-[#04205E] border-2 border-black rounded-lg py-2 px-4">
+          <h1 className="shadow-effect text-base md:text-2xl text-yellow-10 tracking-wider bg-[#04205E] border-2 border-black rounded-lg py-2 px-2 md:px-4">
             <LuCopy />
           </h1>
         </div>

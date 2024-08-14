@@ -6,7 +6,7 @@ import Contact from "./view/Contact";
 
 const App = () => {
   return (
-    <main>
+    <main className="w-full overflow-hidden">
       <Hero />
       <About />
       <Tokenomics />

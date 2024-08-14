@@ -10,8 +10,9 @@ const Header = () => {
   return (
     <header className="relative w-full z-50">
       <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 px-5">
-        <h1 className="text-stroke-sm text-yellow-10 text-5xl font-bold ">
-          yorme
+        <h1 className="text-stroke-sm text-yellow-10 text-4xl font-bold flex items-center gap-2">
+          <img src="/img/logo.png" className="w-12" alt="" />
+          $TSUJI
         </h1>
         <ul className="hidden md:flex items-center gap-7">
           {navlinks.map((item, index) => (
@@ -47,7 +48,7 @@ const Header = () => {
         <nav className="shadow-effect fixed top-0 left-0 bottom-0 w-9/12 bg-[#9bc1fa]  z-[999] py-5 md:hidden flex flex-col items-center justify-start duration-300 transition-all">
           <div className="flex items-center mb-20">
             <h1 className="text-stroke-sm text-yellow-10 text-7xl font-bold ">
-              yorme
+              $TSUJI
             </h1>
           </div>
 

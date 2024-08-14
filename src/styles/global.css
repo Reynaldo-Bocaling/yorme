@@ -62,6 +62,13 @@ header button {
     background-repeat: no-repeat;
 }
 
+/* .social-img {
+    background: url('/img/blob.svg');
+    background-size: 100% 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
 @media (max-width: 767px) {
     .about-content {
         background-size: 100% 50rem;

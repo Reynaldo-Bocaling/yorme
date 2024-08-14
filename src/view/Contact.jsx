@@ -5,8 +5,19 @@ import { socials } from "../constant";
 const Contact = () => {
   return (
     <section id="contact" className="relative w-full bg-dark-violet ">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center pb-7 md:pb-0">
-        <Lottie animationData={aboutAnimation} className="w-full md:w-1/2" />
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center pt-20 pb-7 md:pb-0">
+        <div className="relative  w-full md:w-1/2 flex items-center justify-center translate-x-10 md:translate-x-32">
+          <img
+            src="/img/social1.png"
+            className="w-[15rem] md:w-[30rem] absolute top-0 left-0  -rotate-12"
+            alt=""
+          />
+          <img
+            src="/img/social2.png"
+            className="w-[15rem] md:w-[30rem] translate-x-12 rotate-6"
+            alt=""
+          />
+        </div>
         <div className="w-full md:w-1/2">
           <h1 className="title-section md:w-[32rem] text-5xl md:text-8xl text-center ">
             JOIN US
