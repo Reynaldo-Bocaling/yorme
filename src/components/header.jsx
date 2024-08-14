@@ -38,8 +38,8 @@ const Header = () => {
             Buy Now
           </button>
         </div>
-        <button onClick={handleMenu}>
-          <CgMenuRight size={40} className="text-yellow-10 md:hidden" />
+        <button onClick={handleMenu} className="md:hidden">
+          <CgMenuRight size={40} className="text-yellow-10 " />
         </button>
       </nav>
 
